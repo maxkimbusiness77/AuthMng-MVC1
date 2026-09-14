@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+  <display-name>Maximiae Your Potential</display-name>
+  <description>
+	JSP MVC1 Practice
+  </description>
+
+  <request-character-encoding>UTF-8</request-character-encoding>
+<!-- 세션 만료 시간 설정 -->
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
+ <!-- 시작 페이지 -->
+    <welcome-file-list>
+        <welcome-file>view/login.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

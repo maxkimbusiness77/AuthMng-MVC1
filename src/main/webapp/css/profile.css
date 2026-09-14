@@ -1,0 +1,27 @@
+/* 프로필 전체 영역 */
+.profile {
+	/* Flexbox를 사용하여 세로 배치 및 가운데 정렬 */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+/* 환영 메시지 영역 */
+.welcome-section {
+	/* 요소를 세로로 배치하고 가운데 정렬 */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+/* 프로필 이미지 */
+.profile-img {
+	/* 120px 크기의 원형 프로필 이미지 */
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 1px solid #111;
+}

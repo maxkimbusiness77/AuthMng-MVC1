@@ -1,0 +1,27 @@
+# Java compiled files
+*.class
+
+# Build directories
+bin/
+build/
+target/
+
+# Eclipse workspace
+.metadata/
+
+# Eclipse local settings
+.settings/
+
+# Server / Tomcat
+Servers/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp

@@ -1,0 +1,75 @@
+/* 기본 여백 초기화 */
+body, h1, h2, p, button {
+	margin: 0;
+	padding: 0;
+}
+
+/* 전체 페이지 기본 스타일 */
+body {
+	/* 기본 글꼴 및 세로 방향 레이아웃 설정 */
+	font-family: 'Pretendard-Regular', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: #111;
+	background-color: #fff;
+}
+
+/* 링크 기본 스타일 */
+a {
+	/* 밑줄 제거 및 부모 요소의 글자색 상속 */
+	text-decoration: none;
+	color: inherit;
+}
+
+/* 버튼 영역 */
+.btn-section {
+	/* 버튼을 가운데 정렬 */
+	display: flex;
+	justify-content: center;
+}
+
+/* 활성화된 버튼 */
+button:enabled {
+	/* 마우스를 올리면 손가락 모양 커서 표시 */
+	cursor: pointer;
+}
+
+/* 헤더 영역 */
+.layout-header {
+	/* 헤더 크기 및 하단 테두리 설정 */
+	height: 80px;
+	padding: 0 20px;
+	border-bottom: 1px solid #111;
+
+	/* 내부 요소를 가로로 배치하고 양쪽 정렬 */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* 헤더 내부 div */
+.layout-header div {
+	/* 내부 요소를 가로로 배치하고 간격 설정 */
+	display: flex;
+	gap: 40px;
+}
+
+/* 헤더 div 내부의 모든 요소 */
+.layout-header div * {
+	/* 기본 스타일 제거 및 부모 스타일 상속 */
+	text-decoration: none;
+	font: inherit;
+	color: inherit;
+	background: none;
+	border: 0;
+}
+
+/* 푸터 영역 */
+.layout-footer {
+	/* 가운데 정렬 및 검은색 배경 설정 */
+	text-align: center;
+	background-color: #111;
+	color: #fff;
+	padding: 40px 0;
+}
